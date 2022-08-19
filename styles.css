@@ -85,3 +85,14 @@ footer {
     width: 100%;
     max-width: 1200px;
 }
+
+.hero-container h2 {
+    font-weight: 300;
+    font-size: 33px;
+}
+
+.socialpayme a {
+    color: #fff;
+    font-style: none;
+    text-decoration: none;
+}
