@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "nunito", "sans-serif";
+    background: #000;
+}
+
+:root {
+    --golbal-secondary: #0C0324;
+    --global-purple: #4E10FF;
+    --global-pink: #AB17DF;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--golbal-secondary);
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+.nav-items a {
+    padding: 5px 10px;
+}
+
+section.hero {
+    height: 40vh;
+    background: darkblue;
+    background-image: url('./hero-contact.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: nunito, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+section.content {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+footer {
+    height: 30vh;
+    background: var(--golbal-secondary);
+}
+
+
+.content .container{
+    width: 100%;
+    max-width: 1200px;
+}
